@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <body>
+        <meta charset="UTF-8">
+        <meta http-equiv="X UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device width, initial scale =1.0">
+
+        <title>Book a trip</title>
+        <style>
+            body{text-align: center;}
+        </style>
+        <head>
+            <form action="" method="get">
+                <img src ="1.png" alt="1"> 
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+                <a href="Location">Location</a>
+                <a href="Blog">Blog</a>
+            </li>
+        </ul>
+
+        <h1>Book a trip </h1>
+           Book a Date <input type="date" name="Book a Date " min="2022-10-20" max="2022-12-31">
+       <br>
+           Number of People<input type="range" id="rangeInput" name="rangeInput" value="1" min="1" max="10" oninput="amount.value=rangeInput.value"> 
+           <output id="amount" name="amount" for="rangeInput">1</output>
+           <br>
+           <article>
+
+            Location<input list="Location" name="Location">
+    
+          <datalist id="Location">
+            <option value="Downtown">
+            <option value="Uptown">
+          </datalist>
+    
+            </article>
+        <video width="320" height="240" controls> 
+            <source src="video.mp4" type="video/mp4">
+    </video><br><br>
+ <article>
+
+    Rating <input type="range" min="0" max="5" value="2" step="1" list="rate" id="rating">
+
+    <datalist id="rate">
+
+        <option>1</option>
+
+        <option>2</option>
+
+        <option>3</option>
+
+        <option>4</option>
+
+        <option>5</option>
+
+     </datalist>
+
+    </article>
+<br><br>
+<input type="checkbox" id="checkBox" name="checkBox" value="box">
+
+<label for="checkBox"> I agree to the cancellation</label><br>
+        <br><br>
+
+        <input type="submit" value="Book a table">
+</form>
+<br><br>
+<small><footer>Copyright Ⓒ2022 Franz Gragas</footer></small>
+
+    </head>
+</body>
+</html>
